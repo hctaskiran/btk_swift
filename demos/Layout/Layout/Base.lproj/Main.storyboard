@@ -18,21 +18,27 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ANKARA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCx-tf-Bpp">
                                 <rect key="frame" x="20" y="69" width="353" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="AIe-Vr-eP3"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ankara" translatesAutoresizingMaskIntoConstraints="NO" id="YJF-Ck-eWh">
-                                <rect key="frame" x="31" y="122" width="331" height="220"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ankara" translatesAutoresizingMaskIntoConstraints="NO" id="YJF-Ck-eWh">
+                                <rect key="frame" x="10" y="127" width="373" height="224"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pCx-tf-Bpp" secondAttribute="trailing" constant="20" id="ANO-CU-lJL"/>
-                            <constraint firstItem="pCx-tf-Bpp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="NDA-1r-8lq"/>
-                            <constraint firstItem="pCx-tf-Bpp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="b2N-ey-9tY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YJF-Ck-eWh" secondAttribute="bottom" constant="467" id="4dk-yc-RJQ"/>
+                            <constraint firstItem="pCx-tf-Bpp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7rm-97-frD"/>
+                            <constraint firstItem="pCx-tf-Bpp" firstAttribute="centerX" secondItem="YJF-Ck-eWh" secondAttribute="centerX" id="B6f-Uj-oQQ"/>
+                            <constraint firstItem="pCx-tf-Bpp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="gES-JI-gFg"/>
+                            <constraint firstItem="YJF-Ck-eWh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="lHC-4q-zw5"/>
+                            <constraint firstItem="pCx-tf-Bpp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xrd-WV-Wij"/>
+                            <constraint firstItem="YJF-Ck-eWh" firstAttribute="top" secondItem="pCx-tf-Bpp" secondAttribute="bottom" constant="22" id="yrZ-aJ-5hx"/>
                         </constraints>
                     </view>
                 </viewController>
